@@ -74,6 +74,11 @@ const Card1Credit = styled.p`
   padding: 0.25rem;
 `;
 
+const AuthorSpan = styled.span`
+  display: block;
+  font-weight: 800;
+`;
+
 const Card1Image = styled.img`
   max-width: 100%;
   height: 100%;
@@ -93,7 +98,9 @@ function Card1() {
         <Card1Body>
           Service: Why top brands see beyond the cost center
         </Card1Body>
-        <Card1Credit>ForeRunners Ventures, Team</Card1Credit>
+        <Card1Credit>
+          <AuthorSpan>ForeRunners Ventures,</AuthorSpan> Team
+        </Card1Credit>
       </Card1Wrapper>
       <Card1Wrapper>
         <Card1Image
@@ -116,7 +123,9 @@ function Card1() {
           Moment House Co-Founder & CEO Arjun Mehta on reaching new creators
           following this week&apos;s Series A
         </Card1Body>
-        <Card1Credit>JENNA BIRCH, DIRECTOR, CONTENT</Card1Credit>
+        <Card1Credit>
+          <AuthorSpan>JENNA BIRCH,</AuthorSpan>DIRECTOR, CONTENT
+        </Card1Credit>
       </Card1Wrapper>
     </Card1Background>
   );

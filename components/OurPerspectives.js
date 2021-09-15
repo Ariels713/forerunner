@@ -3,6 +3,8 @@ import styled from "styled-components";
 const SVGWrapper = styled.div`
   display: flex;
   padding-top: 4rem;
+  max-width: 1200px;
+  margin: auto;
 `;
 
 function OurPerspectives() {

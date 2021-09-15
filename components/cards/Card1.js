@@ -109,7 +109,7 @@ function Card1() {
         <Card1Title>Portfolio News</Card1Title>
         <Card1Body>
           Moment House Co-Founder & CEO Arjun Mehta on reaching new creators
-          following this week's Series A
+          following this week&apos;s Series A
         </Card1Body>
         <Card1Credit>JENNA BIRCH, DIRECTOR, CONTENT</Card1Credit>
       </Card1Wrapper>

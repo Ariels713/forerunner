@@ -74,7 +74,12 @@ const Card1Credit = styled.p`
   padding: 0.25rem;
 `;
 
-const Card1Image = styled.img``;
+const Card1Image = styled.img`
+  max-width: 100%;
+  height: 100%;
+  display: inline-block;
+  object-fit: cover;
+`;
 
 function Card1() {
   return (

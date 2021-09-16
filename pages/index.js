@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import OurPerspectives from "../components/OurPerspectives";
 import Card1 from "../components/cards/Card1";
+import Card2 from "../components/cards/Card2";
 export default function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <OurPerspectives />
       <Card1 />
+      <Card2 />
     </div>
   );
 }

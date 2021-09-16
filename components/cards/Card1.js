@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
-import startImage from "../../public/images/starImage.jpg";
+
 const Card1Background = styled.div`
   display: flex;
   justify-content: space-evenly;
@@ -21,7 +21,6 @@ const Card1Wrapper = styled.div`
   height: 320px;
   box-shadow: 10px -10px 0 -3px hsla(273, 50%, 90%, 1),
     10px -10px hsla(68, 48%, 90%, 1);
-  position: relative;
   isolation: isolate;
 `;
 const Card1Img = styled.img`
